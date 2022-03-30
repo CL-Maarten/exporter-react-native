@@ -1,0 +1,20 @@
+{
+  "id": "io.supernova.example-exporter",
+  "name": "React Native Exporter",
+  "description": "React Native Exporter",
+  "author": "David Yarzebinski",
+  "organization": "carlotz.com",
+  "source_dir": "src",
+  "version": "1.0.0",
+  "usesBrands": true,
+  "config": {
+    "sources": "sources.json",
+    "output": "output.json",
+    "js": "src/js/helpers.js"
+  },
+  "engines": {
+    "pulsar": "1.0.0",
+    "supernova": "1.0.0"
+  },
+  "tags": ["React Native"]
+}
